@@ -1,0 +1,17 @@
+.alvin{
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 1px 3px 10px 2px #888;
+  margin-top: 3rem;
+  width: 30%;
+}
+.alvin img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: antiquewhite;
+  display: block;
+  margin: 0 auto;
+}

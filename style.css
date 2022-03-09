@@ -1,0 +1,490 @@
+/* body section  */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* container section */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-weight: 200;
+  text-transform: capitalize;
+  color: #554e4e;
+}
+.container h3 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-ser;
+  color: #8b8787;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.container p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+.container img {
+  max-width: 100%;
+}
+
+/* nav section */
+nav {
+  display: none;
+}
+header {
+  background: #006666;
+}
+.brand-logo-section {
+  padding: 25px 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+a.brand-logo {
+  color: #fff;
+  text-decoration: none;
+}
+.hamburger {
+  display: flex;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.banner {
+  padding: 2.9rem;
+  opacity: 0.5;
+  background-image: url(image/banner-image.png);
+  text-align: center;
+  color: #fff;
+}
+.banner h1 {
+  font-weight: 200;
+}
+.banner button {
+  padding: 11px 32px;
+  border-radius: 1.5625rem;
+  background: none;
+  border-color: #fcfcfc;
+  color: #fff;
+}
+/* about section  */
+.about-section {
+  padding: 0.8rem 0 3.8rem;
+}
+.about-section h3 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.company-image img {
+  width: 100%;
+}
+/* company info section  */
+.company-info h4 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #888;
+  margin-bottom: 0.8rem;
+}
+.company-info ul {
+  padding: 0;
+}
+.company-info ul li,
+.about-para {
+  list-style: none;
+  padding: 0.4rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #5f5d5d;
+}
+.company-info ul li::before {
+  color: #006666;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.3rem;
+  content: "\f05d";
+  font-family: FontAwesome;
+}
+.company-info-title {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+.company-info-pragrap {
+  font-size: 1.2rem;
+  color: #888;
+}
+details {
+  border-bottom: 1px solid #e3eae6;
+  padding-bottom: 1rem;
+}
+.about-section-details {
+  padding: 0;
+}
+.about-section-details li {
+  list-style: none;
+}
+/* frquently asek qustion section  */
+.qustion-section {
+  background-color: #f0f4f8;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.qustion-section h3 {
+  padding-top: 2.5rem;
+}
+.qustion-section details {
+  padding-top: 1rem;
+  color: #555;
+}
+.services-section {
+  padding: 1.4rem 0 3.2rem;
+  background-color: #f2f9f8;
+  text-align: center;
+}
+.services-section i {
+  font-size: 2rem;
+  color: #006666;
+}
+.section-call-action {
+  background-image: url(image/1.jpg);
+  text-align: center;
+  padding: 0.7rem 0 2.8rem;
+  color: #fff;
+}
+.section-call-action button {
+  border-radius: 2.0625rem;
+  padding: 0.5rem 2.4rem;
+  background: none;
+  color: #fff;
+  border-color: #fff;
+  text-transform: capitalize;
+}
+/* protfolio selection  */
+.portfolio-section {
+  padding: 1.5rem 0;
+}
+.protfolio-selection {
+  padding: 0.56rem 1.37rem;
+  background: #4fb6b6;
+  color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: #006666;
+}
+.img-section-1 img,
+.img-section-2 img,
+.img-section-3 img {
+  border-radius: 2%;
+}
+.portfolio-section h2 {
+  text-align: center;
+  font-weight: 200;
+  text-transform: capitalize;
+  color: #3f3a3a;
+}
+.portfolio-list ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  margin: 2.5rem 0 1.875rem;
+  padding: 0;
+}
+.portfolio-list ul li {
+  text-transform: uppercase;
+}
+.container-header {
+  color: #fff;
+}
+.image-name {
+  text-align: center;
+  margin: 1rem 0 0;
+  color: #888;
+}
+.team-info {
+  margin-top: 3rem;
+}
+.team-profile-info-1,
+.team-profile-info-2,
+.team-profile-info-3 {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 1px 3px 10px 2px #888;
+  margin-top: 3rem;
+}
+figure {
+  margin: 0;
+}
+.profile-name {
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  color: #837a7a;
+  margin: 0.1rem;
+  font-family: cursive;
+}
+figcaption p {
+  color: #a0a6a6;
+  font-family: cursive;
+  text-align: center;
+}
+.rounded-image {
+  height: 11.875rem;
+  width: 11.875rem;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.social-icons-team {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 1rem;
+}
+.social-icons-team li {
+  list-style: none;
+  font-size: 1.6rem;
+}
+.social-icons-team i {
+  color: #006666;
+}
+.contactus-section {
+  background-color: #f2f9f8;
+  padding-top: 1.8rem;
+  margin-top: 1rem;
+  color: #888;
+}
+/* footer  */
+.footer-social-info {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+.footer-social-info li {
+  border: 1px solid #006666;
+  width: 25px;
+  height: 25px;
+  padding: 0.05rem;
+  border-radius: 3.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: #fff;
+}
+.footer-social-info i {
+  color: #006666;
+}
+.amoeba-info p {
+  padding: 0;
+  text-align: justify;
+  margin: 0;
+}
+
+.footer-heading {
+  color: #7dd5bf;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.address span {
+  text-align: justify;
+}
+.address i {
+  color: #7dd5bf;
+}
+.phonenumber-info a,
+.address a {
+  text-decoration: none;
+}
+.phonenumber-info,
+.envelop,
+.footer-addres-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+form {
+  padding-top: 0.6rem;
+}
+.form-group {
+  padding-top: 0.8rem;
+}
+.form-group input {
+  width: 100%;
+  padding: 0.6rem 0.3rem;
+  border-radius: 0.1rem;
+  border-color: 1px solid #006666;
+  align-items: center;
+  border: 1px solid #8888;
+}
+.form-group textarea {
+  width: 100%;
+  border: 1px solid #888;
+}
+form button {
+  padding: 0.8rem 2rem;
+  background-color: #09bb94;
+  border: none;
+  margin-top: 1rem;
+  color: #fff;
+}
+form button:hover {
+  background: #006666;
+}
+.send-message {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 289px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none;
+  width: 100%;
+  height: 289px;
+}
+.gmap_iframe {
+  height: 289px;
+}
+.copy-rights p i {
+  background-color: #399781;
+  padding: 0.6rem 0.8rem;
+  color: #f5f5f5;
+  border-radius: 0.2rem;
+}
+.copy-rights p {
+  margin: 0;
+  padding: 0;
+}
+.copy-rights {
+  background-color: #006666;
+  text-align: center;
+  color: #fff;
+}
+.envelop span {
+  padding: 0px;
+}
+
+/* media quree  to desktop  */
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: block;
+  }
+  nav ul,
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li {
+    padding: 0 0.8rem;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .nav-dropdown {
+    color: #fff;
+  }
+  .hamburger {
+    display: none;
+  }
+  .services-section {
+    display: block;
+  }
+  .team-image-info {
+    display: flex;
+    gap: 1rem;
+    /* justify-content: space-between; */
+  }
+  .service-list-1,
+  .service-list-2,
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8rem;
+  }
+  .about-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .about-section h3 {
+    margin-bottom: 0;
+  }
+  .footer-pargrap {
+    word-break: break-all;
+  }
+  .img-section-1,
+  .img-section-2,
+  .img-section-3 {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .brand-logo-section {
+    font-size: 1.3rem;
+  }
+  .company-image {
+    width: 47%;
+    margin-top: 2.9rem;
+  }
+  .company-info {
+    width: 50%;
+  }
+  .portfolio-list ul {
+    justify-content: center;
+  }
+  .portfolio-list ul li {
+    margin-right: 2rem;
+  }
+  .user-form {
+    width: 41%;
+  }
+  .footer-info-address {
+    display: flex;
+  }
+  .amoeba-info {
+    width: 50%;
+    padding-right: 1.8rem;
+  }
+  .copy-rights p i {
+    float: right;
+    font-size: 0.6rem;
+  }
+  .copy-rights p {
+    padding: 1rem;
+  }
+
+  /* my try  */
+  /* .img-section-1:hover {
+
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  } */
+}
